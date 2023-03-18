@@ -5,4 +5,5 @@ COPY ./images/ /var/www/html/images/
 ADD index.html /var/www/html/index.nginx-debian.html
 EXPOSE 80
 EXPOSE 8080
+EXPOSE 9090
 CMD ["/usr/sbin/nginx", "-g", "daemon off;"]
